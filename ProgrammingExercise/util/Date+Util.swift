@@ -4,7 +4,7 @@ extension Date {
 
   func toString() -> String {
     let df = DateFormatter()
-    df.dateFormat = "dd/MM/YYYY"
+    df.dateFormat = "dd/MM/yyyy"
     return df.string(from: self)
   }
   
